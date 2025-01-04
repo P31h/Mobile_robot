@@ -1,0 +1,27 @@
+running develop
+Removing /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+running egg_info
+writing ../../build/mapping/mapping.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapping/mapping.egg-info/dependency_links.txt
+writing entry points to ../../build/mapping/mapping.egg-info/entry_points.txt
+writing requirements to ../../build/mapping/mapping.egg-info/requires.txt
+writing top-level names to ../../build/mapping/mapping.egg-info/top_level.txt
+reading manifest file '../../build/mapping/mapping.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mapping/mapping.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping
+copying /home/p31h/project_ws/build/mapping/build/lib/mapping/__init__.py -> /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping
+byte-compiling /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying launch/mapping.xml -> /home/p31h/project_ws/install/mapping/share/mapping
+copying config/slam_toolbox.yaml -> /home/p31h/project_ws/install/mapping/share/mapping
+copying resource/mapping -> /home/p31h/project_ws/install/mapping/share/ament_index/resource_index/packages
+copying package.xml -> /home/p31h/project_ws/install/mapping/share/mapping
+running install_egg_info
+Copying ../../build/mapping/mapping.egg-info to /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/p31h/project_ws/build/mapping/install.log'

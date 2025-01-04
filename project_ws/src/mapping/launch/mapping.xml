@@ -1,0 +1,23 @@
+<launch>
+
+
+
+    <!-- slam_toolbox launch -->
+    <node
+        pkg="slam_toolbox"
+        exec="sync_slam_toolbox_node"
+        name="slam_toolbox"
+        output="screen">
+        <!-- Parameter File -->
+        <param from="$(find-pkg-share project_launch)/slam_toolbox.yaml" />
+        <param name="use_sim_time" value="false" />
+
+    </node>
+
+
+    <!-- lifecycle_manager_slam launch -->
+
+  
+     
+
+</launch>

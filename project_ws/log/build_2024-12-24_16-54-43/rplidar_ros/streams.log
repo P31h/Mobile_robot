@@ -1,0 +1,4 @@
+[0.055s] Invoking command in '/home/p31h/project_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --build /home/p31h/project_ws/build/rplidar_ros -- -j4 -l4
+[0.196s] [ 18%] Built target rplidar_client
+[0.197s] [ 52%] Built target rplidar_node
+[0.212s] [100%] Built target rplidar_composition

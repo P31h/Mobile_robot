@@ -1,0 +1,19 @@
+[2.009s] Invoking command in '/home/p31h/project_ws/build/esp32_serial': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data
+[2.688s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.688s]   warnings.warn(
+[2.688s] running develop
+[2.978s] running egg_info
+[2.978s] writing esp32_serial.egg-info/PKG-INFO
+[2.979s] writing dependency_links to esp32_serial.egg-info/dependency_links.txt
+[2.979s] writing entry points to esp32_serial.egg-info/entry_points.txt
+[2.980s] writing requirements to esp32_serial.egg-info/requires.txt
+[2.980s] writing top-level names to esp32_serial.egg-info/top_level.txt
+[2.984s] reading manifest file 'esp32_serial.egg-info/SOURCES.txt'
+[2.987s] writing manifest file 'esp32_serial.egg-info/SOURCES.txt'
+[2.989s] running build_ext
+[2.990s] Creating /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32-serial.egg-link (link to .)
+[2.992s] Installing esp32_serial_node script to /home/p31h/project_ws/install/esp32_serial/lib/esp32_serial
+[2.995s] 
+[2.995s] Installed /home/p31h/project_ws/build/esp32_serial
+[2.996s] running symlink_data
+[3.106s] Invoked command in '/home/p31h/project_ws/build/esp32_serial' returned '0': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data

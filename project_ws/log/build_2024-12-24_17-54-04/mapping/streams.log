@@ -1,0 +1,18 @@
+[2.161s] Invoking command in '/home/p31h/project_ws/build/mapping': PYTHONPATH=/home/p31h/project_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/mapping/build --no-deps symlink_data
+[2.686s] running develop
+[2.687s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.687s]   warnings.warn(
+[2.997s] running egg_info
+[2.997s] writing mapping.egg-info/PKG-INFO
+[2.997s] writing dependency_links to mapping.egg-info/dependency_links.txt
+[2.997s] writing entry points to mapping.egg-info/entry_points.txt
+[2.997s] writing requirements to mapping.egg-info/requires.txt
+[2.997s] writing top-level names to mapping.egg-info/top_level.txt
+[3.000s] reading manifest file 'mapping.egg-info/SOURCES.txt'
+[3.006s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[3.008s] running build_ext
+[3.010s] Creating /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[3.013s] 
+[3.014s] Installed /home/p31h/project_ws/build/mapping
+[3.014s] running symlink_data
+[3.123s] Invoked command in '/home/p31h/project_ws/build/mapping' returned '0': PYTHONPATH=/home/p31h/project_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/mapping/build --no-deps symlink_data

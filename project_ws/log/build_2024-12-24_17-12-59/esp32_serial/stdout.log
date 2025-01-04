@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing esp32_serial.egg-info/PKG-INFO
+writing dependency_links to esp32_serial.egg-info/dependency_links.txt
+writing entry points to esp32_serial.egg-info/entry_points.txt
+writing requirements to esp32_serial.egg-info/requires.txt
+writing top-level names to esp32_serial.egg-info/top_level.txt
+reading manifest file 'esp32_serial.egg-info/SOURCES.txt'
+writing manifest file 'esp32_serial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32-serial.egg-link (link to .)
+Installing esp32_serial_node script to /home/p31h/project_ws/install/esp32_serial/lib/esp32_serial
+
+Installed /home/p31h/project_ws/build/esp32_serial
+running symlink_data
+symbolically linking /home/p31h/project_ws/build/esp32_serial/resource/esp32_serial -> /home/p31h/project_ws/install/esp32_serial/share/ament_index/resource_index/packages
+symbolically linking /home/p31h/project_ws/build/esp32_serial/package.xml -> /home/p31h/project_ws/install/esp32_serial/share/esp32_serial

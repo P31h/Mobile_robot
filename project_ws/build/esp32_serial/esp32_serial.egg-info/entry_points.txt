@@ -1,0 +1,4 @@
+[console_scripts]
+esp32_serial_node = esp32_serial.esp32_serial:main
+vel_test_node = esp32_serial.test_vel:main
+

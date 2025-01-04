@@ -1,0 +1,44 @@
+[2.281s] Invoking command in '/home/p31h/project_ws/build/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/p31h/project_ws/build/project_launch/build
+[2.765s] running develop
+[2.765s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.766s]   warnings.warn(
+[3.129s] Removing /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project-launch.egg-link (link to .)
+[3.201s] Invoked command in '/home/p31h/project_ws/build/project_launch' returned '0': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/p31h/project_ws/build/project_launch/build
+[3.202s] Invoking command in '/home/p31h/project_ws/src/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project_launch build --build-base /home/p31h/project_ws/build/project_launch/build install --record /home/p31h/project_ws/build/project_launch/install.log --single-version-externally-managed install_data --force
+[3.688s] running egg_info
+[3.690s] writing ../../build/project_launch/project_launch.egg-info/PKG-INFO
+[3.691s] writing dependency_links to ../../build/project_launch/project_launch.egg-info/dependency_links.txt
+[3.694s] writing entry points to ../../build/project_launch/project_launch.egg-info/entry_points.txt
+[3.695s] writing requirements to ../../build/project_launch/project_launch.egg-info/requires.txt
+[3.695s] writing top-level names to ../../build/project_launch/project_launch.egg-info/top_level.txt
+[3.695s] reading manifest file '../../build/project_launch/project_launch.egg-info/SOURCES.txt'
+[3.696s] adding license file 'LICENSE'
+[3.696s] writing manifest file '../../build/project_launch/project_launch.egg-info/SOURCES.txt'
+[3.697s] running build
+[3.697s] running build_py
+[3.697s] creating /home/p31h/project_ws/build/project_launch/build
+[3.698s] creating /home/p31h/project_ws/build/project_launch/build/lib
+[3.703s] creating /home/p31h/project_ws/build/project_launch/build/lib/project_launch
+[3.737s] copying project_launch/__init__.py -> /home/p31h/project_ws/build/project_launch/build/lib/project_launch
+[3.737s] running install
+[3.739s] running install_lib
+[3.740s] creating /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project_launch
+[3.741s] copying /home/p31h/project_ws/build/project_launch/build/lib/project_launch/__init__.py -> /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project_launch
+[3.743s] byte-compiling /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project_launch/__init__.py to __init__.cpython-310.pyc
+[3.743s] running install_data
+[3.743s] copying launch/esp32_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.747s] copying launch/nav2_launch.py -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.747s] copying launch/project_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.747s] copying launch/robot_descirp_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.747s] copying config/my_map3.pgm -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.747s] copying config/ekf2.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.750s] copying config/my_map3.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.751s] copying config/nav2_config.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.751s] copying config/ekf.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.782s] copying resource/project_launch -> /home/p31h/project_ws/install/project_launch/share/ament_index/resource_index/packages
+[3.791s] copying package.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.791s] running install_egg_info
+[3.792s] Copying ../../build/project_launch/project_launch.egg-info to /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project_launch-0.0.0-py3.10.egg-info
+[3.816s] running install_scripts
+[3.873s] writing list of installed files to '/home/p31h/project_ws/build/project_launch/install.log'
+[3.983s] Invoked command in '/home/p31h/project_ws/src/project_launch' returned '0': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project_launch build --build-base /home/p31h/project_ws/build/project_launch/build install --record /home/p31h/project_ws/build/project_launch/install.log --single-version-externally-managed install_data --force

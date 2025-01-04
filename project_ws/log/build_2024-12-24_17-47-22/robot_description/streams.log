@@ -1,0 +1,18 @@
+[2.460s] Invoking command in '/home/p31h/project_ws/build/robot_description': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/robot_description/build --no-deps symlink_data
+[2.860s] running develop
+[2.878s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.878s]   warnings.warn(
+[3.127s] running egg_info
+[3.128s] writing robot_description.egg-info/PKG-INFO
+[3.128s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[3.130s] writing entry points to robot_description.egg-info/entry_points.txt
+[3.130s] writing requirements to robot_description.egg-info/requires.txt
+[3.131s] writing top-level names to robot_description.egg-info/top_level.txt
+[3.134s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[3.156s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[3.159s] running build_ext
+[3.159s] Creating /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[3.161s] 
+[3.161s] Installed /home/p31h/project_ws/build/robot_description
+[3.161s] running symlink_data
+[3.410s] Invoked command in '/home/p31h/project_ws/build/robot_description' returned '0': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/robot_description/build --no-deps symlink_data

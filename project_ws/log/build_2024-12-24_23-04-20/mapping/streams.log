@@ -1,0 +1,22 @@
+[2.074s] Invoking command in '/home/p31h/project_ws/build/mapping': PYTHONPATH=/home/p31h/project_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/mapping/build --no-deps symlink_data --force
+[2.594s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.594s]   warnings.warn(
+[2.595s] running develop
+[2.880s] running egg_info
+[2.882s] writing mapping.egg-info/PKG-INFO
+[2.882s] writing dependency_links to mapping.egg-info/dependency_links.txt
+[2.882s] writing entry points to mapping.egg-info/entry_points.txt
+[2.882s] writing requirements to mapping.egg-info/requires.txt
+[2.885s] writing top-level names to mapping.egg-info/top_level.txt
+[2.885s] reading manifest file 'mapping.egg-info/SOURCES.txt'
+[2.887s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[2.890s] running build_ext
+[2.891s] Creating /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[2.892s] 
+[2.892s] Installed /home/p31h/project_ws/build/mapping
+[2.899s] running symlink_data
+[2.900s] symbolically linking /home/p31h/project_ws/build/mapping/launch/mapping.xml -> /home/p31h/project_ws/install/mapping/share/mapping
+[2.900s] symbolically linking /home/p31h/project_ws/build/mapping/config/slam_toolbox.yaml -> /home/p31h/project_ws/install/mapping/share/mapping
+[2.900s] symbolically linking /home/p31h/project_ws/build/mapping/resource/mapping -> /home/p31h/project_ws/install/mapping/share/ament_index/resource_index/packages
+[2.900s] symbolically linking /home/p31h/project_ws/build/mapping/package.xml -> /home/p31h/project_ws/install/mapping/share/mapping
+[2.998s] Invoked command in '/home/p31h/project_ws/build/mapping' returned '0': PYTHONPATH=/home/p31h/project_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/mapping/build --no-deps symlink_data --force

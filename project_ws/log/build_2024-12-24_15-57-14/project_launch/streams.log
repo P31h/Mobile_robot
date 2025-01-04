@@ -1,0 +1,34 @@
+[2.580s] Invoking command in '/home/p31h/project_ws/build/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data
+[3.010s] running develop
+[3.026s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.026s]   warnings.warn(
+[3.274s] running egg_info
+[3.274s] creating project_launch.egg-info
+[3.275s] writing project_launch.egg-info/PKG-INFO
+[3.275s] writing dependency_links to project_launch.egg-info/dependency_links.txt
+[3.275s] writing entry points to project_launch.egg-info/entry_points.txt
+[3.278s] writing requirements to project_launch.egg-info/requires.txt
+[3.278s] writing top-level names to project_launch.egg-info/top_level.txt
+[3.278s] writing manifest file 'project_launch.egg-info/SOURCES.txt'
+[3.281s] reading manifest file 'project_launch.egg-info/SOURCES.txt'
+[3.281s] writing manifest file 'project_launch.egg-info/SOURCES.txt'
+[3.284s] running build_ext
+[3.286s] Creating /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project-launch.egg-link (link to .)
+[3.287s] 
+[3.287s] Installed /home/p31h/project_ws/build/project_launch
+[3.287s] running symlink_data
+[3.287s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/esp32_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.287s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/nav2_launch.py -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.287s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/project_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.288s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/robot_descirp_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.288s] symbolically linking /home/p31h/project_ws/build/project_launch/config/my_map3.pgm -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.289s] symbolically linking /home/p31h/project_ws/build/project_launch/config/ekf2.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.289s] symbolically linking /home/p31h/project_ws/build/project_launch/config/my_map3.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.290s] symbolically linking /home/p31h/project_ws/build/project_launch/config/nav2_config.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.290s] symbolically linking /home/p31h/project_ws/build/project_launch/config/ekf.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.290s] creating /home/p31h/project_ws/install/project_launch/share/ament_index
+[3.291s] creating /home/p31h/project_ws/install/project_launch/share/ament_index/resource_index
+[3.291s] creating /home/p31h/project_ws/install/project_launch/share/ament_index/resource_index/packages
+[3.291s] symbolically linking /home/p31h/project_ws/build/project_launch/resource/project_launch -> /home/p31h/project_ws/install/project_launch/share/ament_index/resource_index/packages
+[3.291s] symbolically linking /home/p31h/project_ws/build/project_launch/package.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[3.503s] Invoked command in '/home/p31h/project_ws/build/project_launch' returned '0': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data

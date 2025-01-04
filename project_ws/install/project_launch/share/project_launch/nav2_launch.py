@@ -1,0 +1,1 @@
+/home/p31h/project_ws/build/project_launch/launch/nav2_launch.py

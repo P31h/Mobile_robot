@@ -1,0 +1,21 @@
+[2.921s] Invoking command in '/home/p31h/project_ws/build/esp32_serial': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data --force
+[3.639s] running develop
+[3.641s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.642s]   warnings.warn(
+[4.227s] running egg_info
+[4.236s] writing esp32_serial.egg-info/PKG-INFO
+[4.240s] writing dependency_links to esp32_serial.egg-info/dependency_links.txt
+[4.240s] writing entry points to esp32_serial.egg-info/entry_points.txt
+[4.240s] writing requirements to esp32_serial.egg-info/requires.txt
+[4.240s] writing top-level names to esp32_serial.egg-info/top_level.txt
+[4.245s] reading manifest file 'esp32_serial.egg-info/SOURCES.txt'
+[4.246s] writing manifest file 'esp32_serial.egg-info/SOURCES.txt'
+[4.259s] running build_ext
+[4.260s] Creating /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32-serial.egg-link (link to .)
+[4.266s] Installing esp32_serial_node script to /home/p31h/project_ws/install/esp32_serial/lib/esp32_serial
+[4.266s] 
+[4.266s] Installed /home/p31h/project_ws/build/esp32_serial
+[4.269s] running symlink_data
+[4.269s] symbolically linking /home/p31h/project_ws/build/esp32_serial/resource/esp32_serial -> /home/p31h/project_ws/install/esp32_serial/share/ament_index/resource_index/packages
+[4.270s] symbolically linking /home/p31h/project_ws/build/esp32_serial/package.xml -> /home/p31h/project_ws/install/esp32_serial/share/esp32_serial
+[4.369s] Invoked command in '/home/p31h/project_ws/build/esp32_serial' returned '0': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data --force

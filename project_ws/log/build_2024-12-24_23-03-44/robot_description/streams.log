@@ -1,0 +1,36 @@
+[2.829s] Invoking command in '/home/p31h/project_ws/build/robot_description': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/p31h/project_ws/build/robot_description/build
+[3.310s] running develop
+[3.310s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.310s]   warnings.warn(
+[3.640s] Removing /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[3.710s] Invoked command in '/home/p31h/project_ws/build/robot_description' returned '0': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/p31h/project_ws/build/robot_description/build
+[3.715s] Invoking command in '/home/p31h/project_ws/src/robot_description': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/p31h/project_ws/build/robot_description/build install --record /home/p31h/project_ws/build/robot_description/install.log --single-version-externally-managed install_data --force
+[4.135s] running egg_info
+[4.140s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[4.140s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[4.140s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[4.143s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[4.143s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[4.143s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[4.237s] adding license file 'LICENSE'
+[4.237s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[4.239s] running build
+[4.239s] running build_py
+[4.239s] running install
+[4.239s] running install_lib
+[4.239s] creating /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot_description
+[4.239s] copying /home/p31h/project_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot_description
+[4.263s] byte-compiling /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc
+[4.263s] running install_data
+[4.264s] copying rviz2/rviz2_config_mapping.rviz -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[4.342s] copying rviz2/rviz2_config.rviz -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[4.380s] copying urdf/test_robot.urdf.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[4.382s] copying urdf/test_robot_body.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[4.442s] copying urdf/common_properties.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[4.443s] copying resource/robot_description -> /home/p31h/project_ws/install/robot_description/share/ament_index/resource_index/packages
+[4.473s] copying package.xml -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[4.474s] running install_egg_info
+[4.477s] Copying ../../build/robot_description/robot_description.egg-info to /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[4.502s] running install_scripts
+[4.529s] writing list of installed files to '/home/p31h/project_ws/build/robot_description/install.log'
+[4.733s] Invoked command in '/home/p31h/project_ws/src/robot_description' returned '0': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/p31h/project_ws/build/robot_description/build install --record /home/p31h/project_ws/build/robot_description/install.log --single-version-externally-managed install_data --force

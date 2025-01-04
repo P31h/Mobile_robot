@@ -1,0 +1,24 @@
+[2.881s] Invoking command in '/home/p31h/project_ws/build/robot_description': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/robot_description/build --no-deps symlink_data --force
+[3.567s] running develop
+[3.568s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.568s]   warnings.warn(
+[3.939s] running egg_info
+[3.940s] writing robot_description.egg-info/PKG-INFO
+[3.940s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[3.941s] writing entry points to robot_description.egg-info/entry_points.txt
+[3.941s] writing requirements to robot_description.egg-info/requires.txt
+[3.941s] writing top-level names to robot_description.egg-info/top_level.txt
+[3.944s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[3.945s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[3.947s] running build_ext
+[3.947s] Creating /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[3.949s] 
+[3.949s] Installed /home/p31h/project_ws/build/robot_description
+[3.949s] running symlink_data
+[3.949s] symbolically linking /home/p31h/project_ws/build/robot_description/rviz2/rviz2_config_mapping.rviz -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[3.949s] symbolically linking /home/p31h/project_ws/build/robot_description/rviz2/rviz2_config.rviz -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[3.950s] symbolically linking /home/p31h/project_ws/build/robot_description/urdf/test_robot.urdf.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[3.950s] symbolically linking /home/p31h/project_ws/build/robot_description/urdf/test_robot_body.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[3.950s] symbolically linking /home/p31h/project_ws/build/robot_description/urdf/common_properties.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+[3.950s] symbolically linking /home/p31h/project_ws/build/robot_description/resource/robot_description -> /home/p31h/project_ws/install/robot_description/share/ament_index/resource_index/packages
+[3.950s] symbolically linking /home/p31h/project_ws/build/robot_description/package.xml -> /home/p31h/project_ws/install/robot_description/share/robot_description

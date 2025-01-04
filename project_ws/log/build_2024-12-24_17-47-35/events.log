@@ -1,0 +1,25 @@
+[0.000000] (-) TimerEvent: {}
+[0.000395] (esp32_serial) JobQueued: {'identifier': 'esp32_serial', 'dependencies': OrderedDict()}
+[0.000435] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.000482] (project_launch) JobQueued: {'identifier': 'project_launch', 'dependencies': OrderedDict()}
+[0.000526] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000577] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000620] (esp32_serial) JobStarted: {'identifier': 'esp32_serial'}
+[0.012281] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.021232] (project_launch) JobStarted: {'identifier': 'project_launch'}
+[0.030657] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.098861] (-) TimerEvent: {}
+[0.199404] (-) TimerEvent: {}
+[0.299983] (-) TimerEvent: {}
+[0.400538] (-) TimerEvent: {}
+[0.501172] (-) TimerEvent: {}
+[0.601728] (-) TimerEvent: {}
+[0.637201] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 0}
+[0.702314] (-) TimerEvent: {}
+[0.802889] (-) TimerEvent: {}
+[0.903455] (-) TimerEvent: {}
+[0.988098] (esp32_serial) JobEnded: {'identifier': 'esp32_serial', 'rc': 'SIGINT'}
+[0.989549] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 'SIGINT'}
+[0.990032] (project_launch) JobEnded: {'identifier': 'project_launch', 'rc': 'SIGINT'}
+[0.999763] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[0.999836] (-) EventReactorShutdown: {}

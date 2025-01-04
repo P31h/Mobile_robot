@@ -1,0 +1,31 @@
+[3.030s] Invoking command in '/home/p31h/project_ws/build/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data --force
+[3.905s] running develop
+[3.907s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.907s]   warnings.warn(
+[4.427s] running egg_info
+[4.428s] writing project_launch.egg-info/PKG-INFO
+[4.428s] writing dependency_links to project_launch.egg-info/dependency_links.txt
+[4.429s] writing entry points to project_launch.egg-info/entry_points.txt
+[4.429s] writing requirements to project_launch.egg-info/requires.txt
+[4.430s] writing top-level names to project_launch.egg-info/top_level.txt
+[4.437s] reading manifest file 'project_launch.egg-info/SOURCES.txt'
+[4.438s] writing manifest file 'project_launch.egg-info/SOURCES.txt'
+[4.445s] running build_ext
+[4.445s] Creating /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project-launch.egg-link (link to .)
+[4.446s] 
+[4.446s] Installed /home/p31h/project_ws/build/project_launch
+[4.446s] running symlink_data
+[4.446s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/esp32_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.446s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/nav2_launch.py -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.446s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/project_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.446s] symbolically linking /home/p31h/project_ws/build/project_launch/launch/robot_descirp_launch.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.448s] symbolically linking /home/p31h/project_ws/build/project_launch/config/my_map4.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.449s] symbolically linking /home/p31h/project_ws/build/project_launch/config/my_map3.pgm -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.450s] symbolically linking /home/p31h/project_ws/build/project_launch/config/ekf2.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.451s] symbolically linking /home/p31h/project_ws/build/project_launch/config/my_map3.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.454s] symbolically linking /home/p31h/project_ws/build/project_launch/config/nav2_config.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.455s] symbolically linking /home/p31h/project_ws/build/project_launch/config/my_map4.pgm -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.455s] symbolically linking /home/p31h/project_ws/build/project_launch/config/ekf.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.459s] symbolically linking /home/p31h/project_ws/build/project_launch/resource/project_launch -> /home/p31h/project_ws/install/project_launch/share/ament_index/resource_index/packages
+[4.464s] symbolically linking /home/p31h/project_ws/build/project_launch/package.xml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[4.588s] Invoked command in '/home/p31h/project_ws/build/project_launch' returned '0': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data --force

@@ -1,0 +1,20 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+running egg_info
+writing mapping.egg-info/PKG-INFO
+writing dependency_links to mapping.egg-info/dependency_links.txt
+writing entry points to mapping.egg-info/entry_points.txt
+writing requirements to mapping.egg-info/requires.txt
+writing top-level names to mapping.egg-info/top_level.txt
+reading manifest file 'mapping.egg-info/SOURCES.txt'
+writing manifest file 'mapping.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/p31h/project_ws/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+
+Installed /home/p31h/project_ws/build/mapping
+running symlink_data
+symbolically linking /home/p31h/project_ws/build/mapping/launch/mapping.xml -> /home/p31h/project_ws/install/mapping/share/mapping
+symbolically linking /home/p31h/project_ws/build/mapping/config/slam_toolbox.yaml -> /home/p31h/project_ws/install/mapping/share/mapping
+symbolically linking /home/p31h/project_ws/build/mapping/resource/mapping -> /home/p31h/project_ws/install/mapping/share/ament_index/resource_index/packages
+symbolically linking /home/p31h/project_ws/build/mapping/package.xml -> /home/p31h/project_ws/install/mapping/share/mapping

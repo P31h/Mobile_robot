@@ -1,0 +1,20 @@
+[2.008s] Invoking command in '/home/p31h/project_ws/build/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data
+[2.503s] running develop
+[2.504s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.504s]   warnings.warn(
+[2.939s] running egg_info
+[2.939s] writing project_launch.egg-info/PKG-INFO
+[2.940s] writing dependency_links to project_launch.egg-info/dependency_links.txt
+[2.941s] writing entry points to project_launch.egg-info/entry_points.txt
+[2.943s] writing requirements to project_launch.egg-info/requires.txt
+[2.946s] writing top-level names to project_launch.egg-info/top_level.txt
+[2.952s] reading manifest file 'project_launch.egg-info/SOURCES.txt'
+[2.957s] writing manifest file 'project_launch.egg-info/SOURCES.txt'
+[2.962s] running build_ext
+[2.962s] Creating /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project-launch.egg-link (link to .)
+[2.968s] 
+[2.968s] Installed /home/p31h/project_ws/build/project_launch
+[2.968s] running symlink_data
+[2.969s] symbolically linking /home/p31h/project_ws/build/project_launch/config/nav2_config.yaml -> /home/p31h/project_ws/install/project_launch/share/project_launch
+[2.969s] error: [Errno 17] File exists: '/home/p31h/project_ws/build/project_launch/config/nav2_config.yaml' -> '/home/p31h/project_ws/install/project_launch/share/project_launch/nav2_config.yaml'
+[3.096s] Invoked command in '/home/p31h/project_ws/build/project_launch' returned '1': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data

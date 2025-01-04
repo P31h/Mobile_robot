@@ -1,0 +1,20 @@
+[2.503s] Invoking command in '/home/p31h/project_ws/build/esp32_serial': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data --force
+[3.377s] running develop
+[3.380s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.380s]   warnings.warn(
+[3.838s] running egg_info
+[3.839s] writing esp32_serial.egg-info/PKG-INFO
+[3.841s] writing dependency_links to esp32_serial.egg-info/dependency_links.txt
+[3.843s] writing entry points to esp32_serial.egg-info/entry_points.txt
+[3.843s] writing requirements to esp32_serial.egg-info/requires.txt
+[3.843s] writing top-level names to esp32_serial.egg-info/top_level.txt
+[3.846s] reading manifest file 'esp32_serial.egg-info/SOURCES.txt'
+[3.848s] writing manifest file 'esp32_serial.egg-info/SOURCES.txt'
+[3.851s] running build_ext
+[3.851s] Creating /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32-serial.egg-link (link to .)
+[3.852s] Installing esp32_serial_node script to /home/p31h/project_ws/install/esp32_serial/lib/esp32_serial
+[3.853s] 
+[3.853s] Installed /home/p31h/project_ws/build/esp32_serial
+[3.853s] running symlink_data
+[3.853s] symbolically linking /home/p31h/project_ws/build/esp32_serial/resource/esp32_serial -> /home/p31h/project_ws/install/esp32_serial/share/ament_index/resource_index/packages
+[3.853s] symbolically linking /home/p31h/project_ws/build/esp32_serial/package.xml -> /home/p31h/project_ws/install/esp32_serial/share/esp32_serial

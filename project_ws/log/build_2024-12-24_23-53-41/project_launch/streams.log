@@ -1,0 +1,18 @@
+[3.894s] Invoking command in '/home/p31h/project_ws/build/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data
+[4.687s] running develop
+[4.690s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.690s]   warnings.warn(
+[5.128s] running egg_info
+[5.128s] writing project_launch.egg-info/PKG-INFO
+[5.128s] writing dependency_links to project_launch.egg-info/dependency_links.txt
+[5.129s] writing entry points to project_launch.egg-info/entry_points.txt
+[5.129s] writing requirements to project_launch.egg-info/requires.txt
+[5.129s] writing top-level names to project_launch.egg-info/top_level.txt
+[5.133s] reading manifest file 'project_launch.egg-info/SOURCES.txt'
+[5.176s] writing manifest file 'project_launch.egg-info/SOURCES.txt'
+[5.180s] running build_ext
+[5.184s] Creating /home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages/project-launch.egg-link (link to .)
+[5.193s] 
+[5.193s] Installed /home/p31h/project_ws/build/project_launch
+[5.193s] running symlink_data
+[5.311s] Invoked command in '/home/p31h/project_ws/build/project_launch' returned '0': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data

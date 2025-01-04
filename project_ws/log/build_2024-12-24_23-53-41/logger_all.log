@@ -1,0 +1,357 @@
+[0.439s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.439s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7255f4f451e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7255f4f448e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7255f4f448e0>>)
+[4.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.434s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/p31h/project_ws'
+[4.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extensions ['ignore', 'ignore_ament_install']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extension 'ignore'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extension 'ignore_ament_install'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extensions ['colcon_pkg']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extension 'colcon_pkg'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extensions ['colcon_meta']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extension 'colcon_meta'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extensions ['ros']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp32_serial) by extension 'ros'
+[4.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/esp32_serial' with type 'ros.ament_python' and name 'esp32_serial'
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ignore', 'ignore_ament_install']
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore'
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore_ament_install'
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_pkg']
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_pkg'
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_meta']
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_meta'
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ros']
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ros'
+[4.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping' with type 'ros.ament_python' and name 'mapping'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extensions ['ignore', 'ignore_ament_install']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extension 'ignore'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extension 'ignore_ament_install'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extensions ['colcon_pkg']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extension 'colcon_pkg'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extensions ['colcon_meta']
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extension 'colcon_meta'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extensions ['ros']
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_launch) by extension 'ros'
+[4.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_launch' with type 'ros.ament_python' and name 'project_launch'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[4.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_python' and name 'robot_description'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[4.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[4.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.674s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/p31h/project_ws/install
+[4.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[4.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'cmake_args' from command line to 'None'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'cmake_target' from command line to 'None'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'cmake_clean_first' from command line to 'False'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'cmake_force_configure' from command line to 'False'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'ament_cmake_args' from command line to 'None'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'esp32_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.848s] DEBUG:colcon.colcon_core.verb:Building package 'esp32_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/p31h/project_ws/build/esp32_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/p31h/project_ws/install/esp32_serial', 'merge_install': False, 'path': '/home/p31h/project_ws/src/esp32_serial', 'symlink_install': True, 'test_result_base': None}
+[4.862s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[4.863s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.863s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/p31h/project_ws/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/p31h/project_ws/install/mapping', 'merge_install': False, 'path': '/home/p31h/project_ws/src/mapping', 'symlink_install': True, 'test_result_base': None}
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'cmake_args' from command line to 'None'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'cmake_target' from command line to 'None'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'cmake_clean_first' from command line to 'False'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'cmake_force_configure' from command line to 'False'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'ament_cmake_args' from command line to 'None'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[4.864s] Level 5:colcon.colcon_core.verb:set package 'project_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.864s] DEBUG:colcon.colcon_core.verb:Building package 'project_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/p31h/project_ws/build/project_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/p31h/project_ws/install/project_launch', 'merge_install': False, 'path': '/home/p31h/project_ws/src/project_launch', 'symlink_install': True, 'test_result_base': None}
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.865s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.865s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/p31h/project_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/p31h/project_ws/install/robot_description', 'merge_install': False, 'path': '/home/p31h/project_ws/src/robot_description', 'symlink_install': True, 'test_result_base': None}
+[4.866s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[4.867s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.867s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/p31h/project_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/p31h/project_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/p31h/project_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[4.867s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.869s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.869s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/p31h/project_ws/src/esp32_serial' with build type 'ament_python'
+[4.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('esp32_serial', 'ament_prefix_path')
+[4.899s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/hook/ament_prefix_path.ps1'
+[4.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/hook/ament_prefix_path.dsv'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/hook/ament_prefix_path.sh'
+[4.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.929s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/p31h/project_ws/src/mapping' with build type 'ament_python'
+[4.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ament_prefix_path')
+[4.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/mapping/share/mapping/hook/ament_prefix_path.ps1'
+[4.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/mapping/share/mapping/hook/ament_prefix_path.dsv'
+[4.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/mapping/share/mapping/hook/ament_prefix_path.sh'
+[4.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.934s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.942s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/p31h/project_ws/src/project_launch' with build type 'ament_python'
+[4.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_launch', 'ament_prefix_path')
+[4.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/project_launch/share/project_launch/hook/ament_prefix_path.ps1'
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/project_launch/share/project_launch/hook/ament_prefix_path.dsv'
+[4.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/project_launch/share/project_launch/hook/ament_prefix_path.sh'
+[4.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.960s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/p31h/project_ws/src/robot_description' with build type 'ament_python'
+[4.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'ament_prefix_path')
+[4.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.ps1'
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.dsv'
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.sh'
+[4.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.580s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/p31h/project_ws/src/esp32_serial'
+[5.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.087s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/p31h/project_ws/src/mapping'
+[6.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/p31h/project_ws/src/project_launch'
+[6.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.133s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/p31h/project_ws/src/robot_description'
+[7.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/p31h/project_ws/build/robot_description': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/robot_description/build --no-deps symlink_data
+[8.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/p31h/project_ws/build/esp32_serial': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data
+[8.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/p31h/project_ws/build/project_launch': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data
+[8.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/p31h/project_ws/build/mapping': PYTHONPATH=/home/p31h/project_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/mapping/build --no-deps symlink_data
+[10.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_launch', 'pythonpath_develop')
+[10.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/p31h/project_ws/build/project_launch' returned '0': PYTHONPATH=/home/p31h/project_ws/build/project_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/project_launch/build --no-deps symlink_data
+[10.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/project_launch/share/project_launch/hook/pythonpath_develop.ps1'
+[10.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/build/project_launch/share/project_launch/hook/pythonpath_develop.dsv'
+[10.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/project_launch/share/project_launch/hook/pythonpath_develop.sh'
+[10.333s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch' for CMake module files
+[10.334s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch' for CMake config files
+[10.336s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch/lib'
+[10.336s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch/bin'
+[10.336s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch/lib/pkgconfig/project_launch.pc'
+[10.336s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch/lib/python3.10/site-packages'
+[10.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_launch', 'pythonpath')
+[10.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/project_launch/share/project_launch/hook/pythonpath.ps1'
+[10.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/project_launch/share/project_launch/hook/pythonpath.dsv'
+[10.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/project_launch/share/project_launch/hook/pythonpath.sh'
+[10.343s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/project_launch/bin'
+[10.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_launch)
+[10.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/project_launch/share/project_launch/package.ps1'
+[10.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/p31h/project_ws/install/project_launch/share/project_launch/package.dsv'
+[10.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/project_launch/share/project_launch/package.sh'
+[10.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/project_launch/share/project_launch/package.bash'
+[10.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/project_launch/share/project_launch/package.zsh'
+[10.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/p31h/project_ws/install/project_launch/share/colcon-core/packages/project_launch)
+[10.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/p31h/project_ws/src/rplidar_ros' with build type 'ament_cmake'
+[10.432s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/p31h/project_ws/src/rplidar_ros'
+[10.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath_develop')
+[10.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/robot_description/share/robot_description/hook/pythonpath_develop.ps1'
+[10.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/p31h/project_ws/build/robot_description' returned '0': PYTHONPATH=/home/p31h/project_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/robot_description/build --no-deps symlink_data
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/build/robot_description/share/robot_description/hook/pythonpath_develop.dsv'
+[10.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/robot_description/share/robot_description/hook/pythonpath_develop.sh'
+[10.456s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description' for CMake module files
+[10.456s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description' for CMake config files
+[10.473s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description/lib'
+[10.473s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description/bin'
+[10.473s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[10.473s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages'
+[10.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[10.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[10.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[10.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[10.476s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/robot_description/bin'
+[10.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[10.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/robot_description/share/robot_description/package.ps1'
+[10.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/p31h/project_ws/install/robot_description/share/robot_description/package.dsv'
+[10.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/robot_description/share/robot_description/package.sh'
+[10.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/robot_description/share/robot_description/package.bash'
+[10.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/robot_description/share/robot_description/package.zsh'
+[10.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/p31h/project_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[10.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'pythonpath_develop')
+[10.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/mapping/share/mapping/hook/pythonpath_develop.ps1'
+[10.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/build/mapping/share/mapping/hook/pythonpath_develop.dsv'
+[10.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/p31h/project_ws/build/mapping' returned '0': PYTHONPATH=/home/p31h/project_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/mapping/build --no-deps symlink_data
+[10.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/mapping/share/mapping/hook/pythonpath_develop.sh'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping' for CMake module files
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping' for CMake config files
+[10.492s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping/lib'
+[10.492s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping/bin'
+[10.492s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping/lib/pkgconfig/mapping.pc'
+[10.492s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping/lib/python3.10/site-packages'
+[10.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'pythonpath')
+[10.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/mapping/share/mapping/hook/pythonpath.ps1'
+[10.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/mapping/share/mapping/hook/pythonpath.dsv'
+[10.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/mapping/share/mapping/hook/pythonpath.sh'
+[10.497s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/mapping/bin'
+[10.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[10.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/mapping/share/mapping/package.ps1'
+[10.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/p31h/project_ws/install/mapping/share/mapping/package.dsv'
+[10.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/mapping/share/mapping/package.sh'
+[10.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/mapping/share/mapping/package.bash'
+[10.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/mapping/share/mapping/package.zsh'
+[10.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/p31h/project_ws/install/mapping/share/colcon-core/packages/mapping)
+[10.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/p31h/project_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --build /home/p31h/project_ws/build/rplidar_ros -- -j4 -l4
+[10.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('esp32_serial', 'pythonpath_develop')
+[10.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/esp32_serial/share/esp32_serial/hook/pythonpath_develop.ps1'
+[10.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/p31h/project_ws/build/esp32_serial' returned '0': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build --no-deps symlink_data
+[10.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/build/esp32_serial/share/esp32_serial/hook/pythonpath_develop.dsv'
+[10.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/build/esp32_serial/share/esp32_serial/hook/pythonpath_develop.sh'
+[10.549s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial' for CMake module files
+[10.549s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial' for CMake config files
+[10.560s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial/lib'
+[10.560s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial/bin'
+[10.560s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial/lib/pkgconfig/esp32_serial.pc'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages'
+[10.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('esp32_serial', 'pythonpath')
+[10.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/hook/pythonpath.ps1'
+[10.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/hook/pythonpath.dsv'
+[10.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/hook/pythonpath.sh'
+[10.565s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/esp32_serial/bin'
+[10.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(esp32_serial)
+[10.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/package.ps1'
+[10.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/package.dsv'
+[10.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/package.sh'
+[10.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/package.bash'
+[10.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/esp32_serial/share/esp32_serial/package.zsh'
+[10.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/p31h/project_ws/install/esp32_serial/share/colcon-core/packages/esp32_serial)
+[11.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/p31h/project_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --build /home/p31h/project_ws/build/rplidar_ros -- -j4 -l4
+[11.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/p31h/project_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --install /home/p31h/project_ws/build/rplidar_ros
+[12.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[12.064s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros' for CMake module files
+[12.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/p31h/project_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --install /home/p31h/project_ws/build/rplidar_ros
+[12.065s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros' for CMake config files
+[12.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[12.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[12.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[12.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[12.080s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/lib'
+[12.080s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/bin'
+[12.081s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[12.081s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[12.082s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/bin'
+[12.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[12.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[12.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[12.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[12.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/p31h/project_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[12.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[12.260s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros' for CMake module files
+[12.262s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros' for CMake config files
+[12.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[12.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[12.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[12.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[12.266s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/lib'
+[12.266s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/bin'
+[12.266s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[12.267s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[12.267s] Level 1:colcon.colcon_core.environment:checking '/home/p31h/project_ws/install/rplidar_ros/bin'
+[12.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[12.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[12.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[12.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[12.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[12.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/p31h/project_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[12.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.273s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.337s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/p31h/project_ws/install/local_setup.ps1'
+[12.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/p31h/project_ws/install/_local_setup_util_ps1.py'
+[12.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/p31h/project_ws/install/setup.ps1'
+[12.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/p31h/project_ws/install/local_setup.sh'
+[12.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/p31h/project_ws/install/_local_setup_util_sh.py'
+[12.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/p31h/project_ws/install/setup.sh'
+[12.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/p31h/project_ws/install/local_setup.bash'
+[12.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/p31h/project_ws/install/setup.bash'
+[12.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/p31h/project_ws/install/local_setup.zsh'
+[12.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/p31h/project_ws/install/setup.zsh'

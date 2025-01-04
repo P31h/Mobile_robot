@@ -1,0 +1,38 @@
+[2.296s] Invoking command in '/home/p31h/project_ws/build/esp32_serial': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build
+[3.040s] running develop
+[3.041s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.041s]   warnings.warn(
+[3.535s] Removing /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32-serial.egg-link (link to .)
+[3.640s] Invoked command in '/home/p31h/project_ws/build/esp32_serial' returned '0': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/p31h/project_ws/build/esp32_serial/build
+[3.649s] Invoking command in '/home/p31h/project_ws/src/esp32_serial': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esp32_serial build --build-base /home/p31h/project_ws/build/esp32_serial/build install --record /home/p31h/project_ws/build/esp32_serial/install.log --single-version-externally-managed install_data --force
+[4.207s] running egg_info
+[4.208s] writing ../../build/esp32_serial/esp32_serial.egg-info/PKG-INFO
+[4.208s] writing dependency_links to ../../build/esp32_serial/esp32_serial.egg-info/dependency_links.txt
+[4.209s] writing entry points to ../../build/esp32_serial/esp32_serial.egg-info/entry_points.txt
+[4.209s] writing requirements to ../../build/esp32_serial/esp32_serial.egg-info/requires.txt
+[4.209s] writing top-level names to ../../build/esp32_serial/esp32_serial.egg-info/top_level.txt
+[4.212s] reading manifest file '../../build/esp32_serial/esp32_serial.egg-info/SOURCES.txt'
+[4.214s] adding license file 'LICENSE'
+[4.214s] writing manifest file '../../build/esp32_serial/esp32_serial.egg-info/SOURCES.txt'
+[4.214s] running build
+[4.214s] running build_py
+[4.214s] copying esp32_serial/test_vel.py -> /home/p31h/project_ws/build/esp32_serial/build/lib/esp32_serial
+[4.214s] running install
+[4.214s] running install_lib
+[4.215s] creating /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial
+[4.216s] copying /home/p31h/project_ws/build/esp32_serial/build/lib/esp32_serial/esp32_serial.py -> /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial
+[4.216s] copying /home/p31h/project_ws/build/esp32_serial/build/lib/esp32_serial/__init__.py -> /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial
+[4.216s] copying /home/p31h/project_ws/build/esp32_serial/build/lib/esp32_serial/test_vel.py -> /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial
+[4.219s] byte-compiling /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial/esp32_serial.py to esp32_serial.cpython-310.pyc
+[4.220s] byte-compiling /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial/__init__.py to __init__.cpython-310.pyc
+[4.231s] byte-compiling /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial/test_vel.py to test_vel.cpython-310.pyc
+[4.232s] running install_data
+[4.232s] copying resource/esp32_serial -> /home/p31h/project_ws/install/esp32_serial/share/ament_index/resource_index/packages
+[4.232s] copying package.xml -> /home/p31h/project_ws/install/esp32_serial/share/esp32_serial
+[4.233s] running install_egg_info
+[4.235s] Copying ../../build/esp32_serial/esp32_serial.egg-info to /home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages/esp32_serial-0.0.0-py3.10.egg-info
+[4.236s] running install_scripts
+[4.270s] Installing esp32_serial_node script to /home/p31h/project_ws/install/esp32_serial/lib/esp32_serial
+[4.270s] Installing vel_test_node script to /home/p31h/project_ws/install/esp32_serial/lib/esp32_serial
+[4.271s] writing list of installed files to '/home/p31h/project_ws/build/esp32_serial/install.log'
+[4.321s] Invoked command in '/home/p31h/project_ws/src/esp32_serial' returned '0': PYTHONPATH=/home/p31h/project_ws/build/esp32_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/p31h/project_ws/install/esp32_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esp32_serial build --build-base /home/p31h/project_ws/build/esp32_serial/build install --record /home/p31h/project_ws/build/esp32_serial/install.log --single-version-externally-managed install_data --force

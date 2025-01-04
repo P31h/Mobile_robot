@@ -1,0 +1,28 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating robot_description.egg-info
+writing robot_description.egg-info/PKG-INFO
+writing dependency_links to robot_description.egg-info/dependency_links.txt
+writing entry points to robot_description.egg-info/entry_points.txt
+writing requirements to robot_description.egg-info/requires.txt
+writing top-level names to robot_description.egg-info/top_level.txt
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+reading manifest file 'robot_description.egg-info/SOURCES.txt'
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/p31h/project_ws/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+
+Installed /home/p31h/project_ws/build/robot_description
+running symlink_data
+symbolically linking /home/p31h/project_ws/build/robot_description/rviz2/rviz2_config_mapping.rviz -> /home/p31h/project_ws/install/robot_description/share/robot_description
+symbolically linking /home/p31h/project_ws/build/robot_description/rviz2/rviz2_config.rviz -> /home/p31h/project_ws/install/robot_description/share/robot_description
+symbolically linking /home/p31h/project_ws/build/robot_description/urdf/test_robot.urdf.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+symbolically linking /home/p31h/project_ws/build/robot_description/urdf/test_robot_body.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+symbolically linking /home/p31h/project_ws/build/robot_description/urdf/common_properties.xacro -> /home/p31h/project_ws/install/robot_description/share/robot_description
+creating /home/p31h/project_ws/install/robot_description/share/ament_index
+creating /home/p31h/project_ws/install/robot_description/share/ament_index/resource_index
+creating /home/p31h/project_ws/install/robot_description/share/ament_index/resource_index/packages
+symbolically linking /home/p31h/project_ws/build/robot_description/resource/robot_description -> /home/p31h/project_ws/install/robot_description/share/ament_index/resource_index/packages
+symbolically linking /home/p31h/project_ws/build/robot_description/package.xml -> /home/p31h/project_ws/install/robot_description/share/robot_description

@@ -1,0 +1,75 @@
+[0.121s] Invoking command in '/home/p31h/project_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake /home/p31h/project_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/p31h/project_ws/install/rplidar_ros
+[0.697s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.392s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.676s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.695s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.714s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.999s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.005s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.841s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.928s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.210s] -- Configuring done
+[3.472s] -- Generating done
+[3.477s] -- Build files have been written to: /home/p31h/project_ws/build/rplidar_ros
+[3.507s] Invoked command in '/home/p31h/project_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake /home/p31h/project_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/p31h/project_ws/install/rplidar_ros
+[3.511s] Invoking command in '/home/p31h/project_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --build /home/p31h/project_ws/build/rplidar_ros -- -j4 -l4
+[3.642s] [35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[3.868s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[3.909s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[4.259s] [  5%] Built target rplidar_client
+[4.313s] [ 97%] Built target rplidar_node
+[4.313s] [100%] Built target rplidar_composition
+[4.338s] Invoked command in '/home/p31h/project_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --build /home/p31h/project_ws/build/rplidar_ros -- -j4 -l4
+[4.484s] Invoking command in '/home/p31h/project_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --install /home/p31h/project_ws/build/rplidar_ros
+[4.496s] -- Install configuration: ""
+[4.497s] -- Execute custom install script
+[4.513s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[4.513s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[4.514s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[4.515s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[4.516s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[4.516s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[4.517s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[4.517s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[4.518s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[4.519s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[4.527s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[4.528s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[4.529s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[4.529s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[4.530s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[4.530s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[4.531s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[4.532s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[4.532s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[4.533s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[4.534s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[4.534s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[4.535s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[4.535s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[4.536s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[4.537s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[4.537s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[4.538s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[4.538s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[4.539s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[4.540s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[4.540s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[4.540s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[4.541s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[4.541s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[4.542s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[4.542s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[4.543s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[4.543s] -- Symlinking: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[4.560s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[4.561s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.562s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.563s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[4.563s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[4.564s] -- Up-to-date symlink: /home/p31h/project_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[4.569s] Invoked command in '/home/p31h/project_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/p31h/project_ws/install/robot_description:/home/p31h/project_ws/install/project_launch:/home/p31h/project_ws/install/mapping:/home/p31h/project_ws/install/esp32_serial:/opt/ros/humble /usr/bin/cmake --install /home/p31h/project_ws/build/rplidar_ros
