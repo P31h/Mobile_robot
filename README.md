@@ -40,7 +40,9 @@
 
 ## Video Demo
 
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/drive/u/2/folders/10F1VnyYb9XxmeSjLYp4-0TkiL8Mw8xsd)
+![mapping_demo](https://drive.google.com/file/d/10ZQM7WuWqgh60RMivSQgfVGZlLlrDJLG/view?usp=drive_link)
+
+
 
   
 
