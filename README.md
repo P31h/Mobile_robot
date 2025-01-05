@@ -32,7 +32,7 @@
 ## Electrical diagram
 
 <p align="center">
-  <img width="500" height="650" src="https://github.com/user-attachments/assets/2a0363ac-a126-41fa-939b-4a1879bf81a5">
+  <img width="500" height="600" src="https://github.com/user-attachments/assets/2a0363ac-a126-41fa-939b-4a1879bf81a5">
 </p>
 
 
@@ -40,7 +40,11 @@
 
 ## Video Demo
 
-![mapping_demo](https://drive.google.com/file/d/10ZQM7WuWqgh60RMivSQgfVGZlLlrDJLG/view?usp=drive_link)
+[Mapping_video_demo](https://drive.google.com/file/d/10ZQM7WuWqgh60RMivSQgfVGZlLlrDJLG/view?usp=drive_link)
+
+[Navigation_video_demo](https://drive.google.com/file/d/1l6TdG2vcCEkAoXeKyDI0hxFsG0zdCP_6/view?usp=drive_link)
+
+
 
 
 
