@@ -19,17 +19,36 @@
 ## Electrical components
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/user-attachments/assets/7f741883-bedd-4ccd-8749-422e149f67d7">
+  <img width="550" height="380" src="https://github.com/user-attachments/assets/7f741883-bedd-4ccd-8749-422e149f67d7">
 </p>
 
 ## Electrical diagram
 
 <p align="center">
-  <img width="450" height="650" src="https://github.com/user-attachments/assets/2a0363ac-a126-41fa-939b-4a1879bf81a5">
+  <img width="500" height="650" src="https://github.com/user-attachments/assets/2a0363ac-a126-41fa-939b-4a1879bf81a5">
 </p>
 
 
-
 # Results
+
+## Video Demo
+  
+
+## Archivement 
+
+* Scanning and Creating a map of indoor environment setup using 2d lidar
+* Design a robust mobile robot base for further research
+* Implement ROS2 and Nav2 for the mobile robot
+
+## Further Development 
+
+* Develop path planning and path following algorithm
+* Apply a better version for odometry (Eg: GPS, QR code, Camera)
+* Build better control system for robot
+
+
+
+
+
 
 
