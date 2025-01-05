@@ -2,6 +2,13 @@
 ## Project Name
  RESEARCH ON INDOOR AUTONOMOUS MOBILE ROBOT SYSTEMS USING 2D LIDAR
  *Current situation: done*
+
+## Skill enhance 
+ * knowing how to use ROS2 framework
+ * Understand concepts for building autonomous mobile robot
+ * Knowing how to draw 2D map by lidar
+ * Understand the mechanism of mecanum-wheel robot 
+ 
  
 ## Features 
  * Robot is able to move in any direction with tiny space require to tilt
@@ -19,7 +26,7 @@
 ## Electrical components
 
 <p align="center">
-  <img width="550" height="380" src="https://github.com/user-attachments/assets/7f741883-bedd-4ccd-8749-422e149f67d7">
+  <img width="450" height="350" src="https://github.com/user-attachments/assets/7f741883-bedd-4ccd-8749-422e149f67d7">
 </p>
 
 ## Electrical diagram
@@ -32,6 +39,7 @@
 # Results
 
 ## Video Demo
+
   
 
 ## Archivement 
