@@ -19,15 +19,17 @@
 ## Electrical components
 
 <p align="center">
-  <img width="500" height="350" src="https://github.com/user-attachments/assets/7f741883-bedd-4ccd-8749-422e149f67d7">
+  <img width="600" height="400" src="https://github.com/user-attachments/assets/7f741883-bedd-4ccd-8749-422e149f67d7">
 </p>
 
 ## Electrical diagram
 
 <p align="center">
-  <img width="350" height="450" src="https://github.com/user-attachments/assets/2a0363ac-a126-41fa-939b-4a1879bf81a5">
+  <img width="450" height="650" src="https://github.com/user-attachments/assets/2a0363ac-a126-41fa-939b-4a1879bf81a5">
 </p>
 
 
 
 # Results
+
+
